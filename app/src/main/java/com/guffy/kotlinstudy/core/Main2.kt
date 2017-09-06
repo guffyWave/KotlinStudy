@@ -1,7 +1,7 @@
 package com.guffy.kotlinstudy.core
 
 /**
- * Description ...
+ * Variable Declaration and methods
  *
  * @author Gufran Khurshid
  * @version 1.0

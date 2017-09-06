@@ -1,7 +1,7 @@
 package com.guffy.kotlinstudy.core
 
 /**
- * Description ...
+ * Collections ...
  *
  * @author Gufran Khurshid
  * @version 1.0

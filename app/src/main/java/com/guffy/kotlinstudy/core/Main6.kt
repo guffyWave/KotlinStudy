@@ -1,7 +1,7 @@
 package com.guffy.kotlinstudy.core
 
 /**
- * Callese Study
+ * Classes Study
  *
  * @author Gufran Khurshid
  * @version 1.0

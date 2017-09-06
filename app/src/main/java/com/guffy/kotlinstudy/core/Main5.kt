@@ -3,7 +3,7 @@ package com.guffy.kotlinstudy.core
 import java.io.File
 
 /**
- * Description ...
+ * Collections Map
  *
  * @author Gufran Khurshid
  * @version 1.0

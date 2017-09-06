@@ -1,7 +1,7 @@
 package com.guffy.kotlinstudy.core
 
 /**
- * Description ...
+ * Hello Kotlin
  *
  * @author Gufran Khurshid
  * @version 1.0

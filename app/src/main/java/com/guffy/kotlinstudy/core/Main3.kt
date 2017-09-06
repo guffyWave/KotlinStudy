@@ -3,8 +3,8 @@ package com.guffy.kotlinstudy.core
 import java.lang.Integer.parseInt
 
 /**
- * Description ...
- *
+ * Method calls
+ * *
  * @author Gufran Khurshid
  * @version 1.0
  * @since 9/6/17
