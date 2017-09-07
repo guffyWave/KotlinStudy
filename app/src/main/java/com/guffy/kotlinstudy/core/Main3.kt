@@ -17,12 +17,11 @@ fun main(args: Array<String>) {
     val address: String? = null // nullable string
     println("Address is  $address")
 
-
     val num1 = "23"
     val num2 = "93"
     println("Sum is  ${Integer.parseInt(num1) + Integer.parseInt(num2)}")
 
-   printProduct("34", "fg31")
+    printProduct("34", "fg31")
 }
 
 fun parseMyNumber(str: String): Int? = Integer.parseInt(str)
