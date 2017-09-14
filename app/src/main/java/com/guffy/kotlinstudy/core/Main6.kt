@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
 
 class Person constructor(val firstName: String, val lastName: String, val age: Int) {
     init {
-        println("Secondary constructor called with fname ${firstName} lname ${lastName}  & age ${age} ")
+        println("First constructor called with fname ${firstName} lname ${lastName}  & age ${age} ")
     }
 
     constructor(firstName: String) : this(firstName, "", 0) {

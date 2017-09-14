@@ -37,3 +37,4 @@ fun getStringLength(obj: Any): Int {
 }
 
 fun getStringLength2(obj: Any): Int = if (obj is String) obj.length else -1
+
