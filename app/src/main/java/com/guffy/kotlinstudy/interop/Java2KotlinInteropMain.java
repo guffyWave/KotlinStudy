@@ -11,6 +11,8 @@ package com.guffy.kotlinstudy.interop;
 public class Java2KotlinInteropMain {
     public static void main(String[] args) {
 
+        System.out.println("Hello World");
+
 //        //calling class
 //        Dog dog = new Dog("Abhilash", "Pomerian");
 //        System.out.println("Dog name " + dog.getName());

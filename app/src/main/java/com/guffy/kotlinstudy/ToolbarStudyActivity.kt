@@ -1,5 +1,6 @@
 package com.guffy.kotlinstudy
 
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
@@ -16,9 +17,12 @@ class ToolbarStudyActivity : AppCompatActivity() {
     }
 
     private fun init() {
-       /// setSupportActionBar(toolbar)
+        setSupportActionBar(toolbar)
         supportActionBar?.setDisplayShowTitleEnabled(true)
-        supportActionBar?.setTitle("Guffy Toolbar")
-        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.title = "Guffy Toolbar";
+        val transparentColorDrawable = ColorDrawable(android.R.color.transparent)
+        supportActionBar?.setBackgroundDrawable(transparentColorDrawable)
+        supportActionBar?.setIcon(R.mipmap.ic_launcher_round)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }
