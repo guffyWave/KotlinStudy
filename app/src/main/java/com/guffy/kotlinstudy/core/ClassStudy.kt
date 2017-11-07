@@ -85,3 +85,50 @@ class Bar3 : MySuper() {
     }
 }
 
+class Address {
+    var name: String = ""
+    var street: String = ""
+    var city: String = ""
+    var state: String? = ""
+    var zip: String = ""
+}
+
+fun copyAddress(address: Address): Address {
+    val result = Address() // there's no 'new' keyword in Kotlin
+    result.name = address.name // accessors are called
+    result.street = address.street
+    return result
+}
+
+
+class GetterSetterEntity {
+    private var fname: String = ""
+        get() = field  // field is actually this.fname, and 'this' is your class/obj instance
+        set(value) {
+            field = value
+        }
+    var name: String = "No Name"
+        get() = "Mr. " + field
+        set(value) {
+            field = value.trim()
+        }
+    var age: Int = -1
+    private var _table: Map<String, Int>? = null
+        get() {
+            if (_table == null) {
+                _table = HashMap() // Type parameters are inferred
+            }
+            return _table ?: throw AssertionError("Set to null by another thread")
+        }
+}
+
+
+public class MyTest {
+    lateinit var address: Address
+
+    fun setup() {
+        address = Address()
+    }
+}
+
+
