@@ -37,15 +37,18 @@ fun main(args: Array<String>) {
     print(boxedA === anotherBoxedA) // !!!Prints 'false'!!!
 
 
-
     // Hypothetical code, does not actually compile:
 //    val a: Int? = 1 // A boxed Int (java.lang.Integer)
 //    val b: Long? = a // implicit conversion yields a boxed Long (java.lang.Long)
 //    print(a == b) // Surprise! This prints "false" as Long's equals() check for other part to be Long as well
 
 
-    val base=Base();
+    val base = Base();
     base.userAge.toInt()
+
+    val someData = double(67)
+
+    Hospital("Max Hospital", "Shalimar Bagh").treatPatient()
 
 }
 

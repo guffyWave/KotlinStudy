@@ -56,7 +56,6 @@ class Derived() : Base() {
 
 interface Foo {
     val count: Int
-
 }
 
 class Bar1(override val count: Int) : Foo {

@@ -18,8 +18,7 @@ fun myFun() {
 
     ///Pair & Triple class
     val jodiOne = Pair<String, String>("Santa", "Banta")
-
-
+    
     ///Destructing Functions
     val jane = User("Jane", 35)
     val (name, age) = jane
